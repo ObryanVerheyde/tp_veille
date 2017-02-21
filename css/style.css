@@ -54,7 +54,7 @@ header
  margin: 0
 }
 
-.bg_img, footer
+.bg_img, footer, .history
 {
   background-color: #323e55;
 }
