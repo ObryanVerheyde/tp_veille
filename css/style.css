@@ -54,6 +54,11 @@ header
  margin: 0
 }
 
+.bg_img, footer
+{
+  background-color: #323e55;
+}
+
 .accueilo
 {
  color: #12449b
@@ -69,12 +74,7 @@ p
   font-size: 20px;
 }
 
-span
+.center
 {
   text-align: center;
-}
-
-footer
-{
-  background-color: #323e55;
 }
