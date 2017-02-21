@@ -1,34 +1,87 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
     <head>
       <meta charset="UTF-8">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <meta http-equiv="X-UA-Compatible" content="ie=edge">
-      <title>Usersnap</title>
+      <link rel="stylesheet" href="css/style.css">
+      <link rel="shortcut icon" href="images/icone.png">
+      <title>UserSnap</title>
     </head>
 
     <body>
-        <h1>Usersnap</h1>
+        <div id="logo">
+          <img class="logo" src="images/usersnap.png" alt="logo usersnap">
+        </div>
+        <br />
+        <!-- En-tête -->
+        <header>
+            <ul id="nav">
+               <li>
+                 <a class="accueilb" href="index.html">Présentation</a>
+               </li>
+               <li>
+                 <a class="accueilo" href="https://korben.info/usersnap-connaitre-bugs-de-site-recuperer-retours-de-vos-internautes.html">Démonstration</a>
+               </li>
+               <li>
+                 <a class="accueilo" href="https://usersnap.com/">Site web UserSnap</a>
+               </li>
+            </ul>
+        </header>
+        <br />
+        <h2>
+          Principe de fonctionnement
+        </h2>
         <p>
-          UserSnap permet tout simplement aux internautes qui visitent votre site, de remonter des bugs ou de faire part de leurs remarques.
+          UserSnap est un bug trackeur visuel
+        </p>
+        <p>
+          Il permet tout simplement aux internautes qui visitent votre site, de remonter des bugs ou de faire part de leurs remarques.
           L'intégration est simple, c'est un petit bout de code à intégrer dans vos pages web.
         </p>
         <p>
           Comme il n'est pas toujours simple d'expliquer un bug qu'il soit graphique, technique ou fonctionnel,
-          Usersnap a intégré dans son service un outil de capture d'écran très simple à prendre en main, même par Monsieur ou Madame tout le monde.
+          Usersnap a intégré dans son service un outil de capture d'écran très simple à prendre en main,
+          et faire remonter facilement les commentaires des utilisateurs, même par Monsieur ou Madame tout le monde.
         </p>
-
-        
-        <script type="text/javascript">
-          (function()
-          {
-            var s = document.createElement("script");
-            s.type = "text/javascript";
-            s.async = true;
-            s.src = '//api.usersnap.com/load/'+'fb96a153-e1a5-456b-a63b-7ba3a69f5adb.js';
-            var x = document.getElementsByTagName('script')[0];
-            x.parentNode.insertBefore(s, x);
-          })();
-        </script>
+        <p>
+          Cela permet d'avoir en permanence un retour sur les éventuels soucis rencontrés par vos internautes et de régler au plus vite ces soucis.
+          Ensuite l'admin peut voir les retours et faire les corrections qui s'imposent.
+        </p>
+        <br />
+        <img class="displayed" src="images/usersnap_fonctionnement.png" alt="Principe de fonctionnement">
+        <h2>
+          Intégration en groupe
+        </h2>
+        <p>
+          On peut aussi l'utiliser de manière collaborative avec plusieurs personnes (plusieurs développeurs par exemple)
+          en temps réel et il s'intègre dans pas mal de services tiers comme Slack ou Trello. Top pour du travail d'équipe !
+        </p>
+        <p>
+          L'autre intérêt de Usersnap par rapport à des solutions concurrentes,
+          ce sont ses API qui permettent de connecter le service avec n'importe lequel de vos outils spécifiques.
+        </p>
+        <p>
+          Il fonctionne également de façon transparente avec les outils que vous et votre équipe utilisez déjà.
+          Comme Slack, Asana, Zendesk et beaucoup d'autres.
+        </p>
+        <p>
+          La solution UserSnap, s'adapte également aux différents types de workflows utilisés.
+        </p>
+        <br />
+        <p>
+          UserSnap, permet également, par le biais d'une extensions navigateur (chrome, firefox) d'être utilisé automatiquement.
+          Il s'uffit de renseigner les liens du site internet concerné et l'extension charge automatiquement le bouton sur la page web.
+          <img class="install" src="images/install.png" alt="install">
+        </p>
+        <!-- Pied de page -->
+        <p>
+          <span>
+            Utilisé par
+          </span>
+        </p>
+        <footer>
+          <img class="partners" src="images/partners.png" alt="partenaires">
+        </footer>
     </body>
 </html>

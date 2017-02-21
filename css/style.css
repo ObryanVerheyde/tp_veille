@@ -1,0 +1,80 @@
+img.logo, img.install, img.partners
+{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 100%;
+}
+
+img.displayed
+{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 100%;
+  border-radius: 10px;
+}
+
+h1
+{
+  text-align: center;
+}
+
+h2
+{
+  text-decoration: underline;
+}
+
+header
+{
+ background-color: gray;
+ font-weight: bold;
+ font-size: 20px;
+ width: 100%;
+ display: flex;
+ justify-content: space-around;
+}
+
+#logo
+{
+  background-color: white;
+}
+
+#nav
+{
+ text-align: center;
+ padding: 0;
+ margin: 0
+}
+
+#nav li
+{
+ display: inline-block;
+ list-style: none;
+ margin: 0
+}
+
+.accueilo
+{
+ color: #12449b
+}
+
+.accueilb
+{
+ color: #12449b
+}
+
+p
+{
+  font-size: 20px;
+}
+
+span
+{
+  text-align: center;
+}
+
+footer
+{
+  background-color: #323e55;
+}
